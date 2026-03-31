@@ -13,7 +13,7 @@ This was the final render utilizing a sample size of 10,000 (vectors per px), an
 This image was with a very low sample size and bounce for a fairly quick write speed (<5 minutes).  Metallic and lambertian objects reflect the correct amount and a depth of field effect is applied to objects far away:
 ![LowerSample](https://github.com/TechSupportSparky/RayTracing/assets/39195543/0ff5ab21-c78f-4d3c-a9d3-299573992a8d)
 
-This image was utilizing a much larger sample size of around 500 (vectors per px) and a bounce of around 200.  This led to a bit of color bleed where even lambertian objects appeared mirror-like.  This is far from ideal as it does ot appear normal, however it is an interesting effect nonetheless!
+This image was utilizing a much larger sample size of around 500 (vectors per px) and a bounce of around 200.  This led to a bit of color bleed where even lambertian objects appeared mirror-like.  This is far from ideal as it does not appear normal, however it is an interesting effect nonetheless!
 ![BallRender](https://github.com/TechSupportSparky/RayTracing/assets/39195543/7dcb33b4-1501-4553-b360-e1d4b060dc77)
 
 Repeated sin wave texture mapping to the ground:
